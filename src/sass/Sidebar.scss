@@ -1,0 +1,99 @@
+.sidebar{
+    flex:0.3;
+    max-width:300px;
+    padding-right: 20px;
+    .sidebar__compose{
+        margin: 15px 0 15px 10px;
+        text-transform: capitalize;
+        color: gray;
+        padding:15px;
+        border-radius: 30px;
+        box-shadow: 0 2px 5px -2px rgba(0,0,0,0.75);
+
+    }
+}
+.sidebarOption{
+   
+    display: flex;
+    align-items: center;
+    height:40px;
+    padding:0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor:pointer;
+    color:gray;
+    // border:1px solid black;
+    &:hover{
+        background-color: #fcecec;
+        color:#c04b37;
+        font-weight: 800 !important;
+    }
+    h3{
+        
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        span{
+            opacity: 0;
+            width :100%;
+            padding:10px 0 10px 70px ;
+            height: 100%;
+            // border:1px solid green;
+            
+        }
+
+        
+       &:hover{
+           span{
+               opacity: 1;
+               
+           }
+           background-color: #fcecec;
+           color:#c04b37;
+           font-weight: 800 !important;
+       }
+    }
+   
+}
+ .sidebar__footer {
+     display: flex;
+     justify-content: center;
+ }
+.sidebarOption--active{
+     background-color: #fcecec;
+     color:#c04b37;
+     font-weight: 800 !important;
+     h3{
+          background-color: #fcecec;
+          color:#c04b37;
+          font-weight: 800 !important;
+        span{
+            opacity: 1;
+             background-color: #fcecec;
+             color:#c04b37;
+             font-weight: 800 !important;
+        }
+        }
+
+}
+    // p{
+    //    opacity:0;
+    //     // color:white;
+    //     &:hover{
+    //         display: flex;
+    //         align-items:center;
+    //         justify-content: center;
+    //         border:2px solid blue ;
+    //         width:100%;
+    //         height:100%;
+    //         opacity:1;
+    //         font-weight: bold;
+           
+    //         background-color: #fcecec;
+    //         color:#c04b37;
+    //         font-weight: 800 !important;
+    //     }
+    
+
+
+    // justify-content: space-between;

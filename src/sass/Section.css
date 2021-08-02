@@ -1,0 +1,30 @@
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-width: 2px;
+  padding: 15px;
+  min-width: 200px;
+  cursor: pointer;
+  color: gray;
+  border-width: 0 !important;
+}
+
+.section:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
+
+.section h4 {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.section--selected {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
+/*# sourceMappingURL=Section.css.map */
